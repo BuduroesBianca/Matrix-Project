@@ -66,12 +66,13 @@ At the beginning of the game, this is how our snake of length 3 will look on the
   * Case 1 - The food is not found:  the current position on the matrix will be the new head, so we replace it with snakeLength + 1. We have now something like this: 4(new head) - 3 - 2 - 1(tail). Immediately after that, we substract each part of the snake => 3(new head) - 2 - 1(new tail) - 0(old tail). 
   * Case 2 - The food is found: we first add 1 by each body part of the snake => 4(head) - 3 - 2(tail) and increment snakeLength. After that we repeat the steps from Case 1. The result 4(head) - 3 - 2 - 1(tail).
 
-
-### Video showcasing the functionality
-
-Video can be found [here](https://youtu.be/ze4zzD_XR7A).
-
 ## Pictures of the Setup
 
-<img src="IMG_2911" width="310" height = "500">
+<img src="IMG_2911.JPG" width="310" height = "450">
+<img src="IMG_2912.JPG" width="310" height = "450">
+<img src="IMG_2920.JPG" width="360" height = "450">
+<img src="IMG_2917.JPG" width="450" height = "310">
 
+## Video showcasing the functionality
+
+Video can be found [here](https://youtu.be/ze4zzD_XR7A).
