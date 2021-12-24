@@ -67,6 +67,9 @@ At the beginning of the game, this is how our snake of length 3 will look on the
   * Case 2 - The food is found: we first add 1 by each body part of the snake => 4(head) - 3 - 2(tail) and increment snakeLength. After that we repeat the steps from Case 1. The result 4(head) - 3 - 2 - 1(tail).
 
 
+### Video showcasing the functionality
+
+Video can be found [here](https://youtu.be/ze4zzD_XR7A).
 
 
 
