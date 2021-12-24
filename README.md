@@ -71,5 +71,7 @@ At the beginning of the game, this is how our snake of length 3 will look on the
 
 Video can be found [here](https://youtu.be/ze4zzD_XR7A).
 
+## Pictures of the Setup
 
+<img src="IMG_2911" width="310" height = "500">
 
