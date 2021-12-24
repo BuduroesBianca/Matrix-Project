@@ -60,10 +60,10 @@ Dificulty level is not saved in EEPROM, so when you play for the first time you 
   * The snake direction is calculated
   * Snake movement is calculated
 
-- Snake Movement
-The logic behind this is that we constantly light up the new head and turn off the tail of the snake.
-At the beginning of the game, this is how our snake of length = 3 will look on the matrix: 3(head) - 2 - 1(tail). If we move the joystick we have these next cases:
-  * Case 1 - The food is not found:  the current position on te matrix will be the new head, so we replace it with snakelength + 1. We have now something like this: 4(new head) - 3 - 2 - 1(tail). Immediately after that, we substract each part of the snake => 3(new head) - 2 - 1(new tail) - 0(old tail). 
+- Snake Movement:
+he logic behind this is that we constantly light up the new head and turn off the tail of the snake.
+At the beginning of the game, this is how our snake of length 3 will look on the matrix: 3(head) - 2 - 1(tail). If we move the joystick we have these next cases:
+  * Case 1 - The food is not found:  the current position on the matrix will be the new head, so we replace it with snakeLength + 1. We have now something like this: 4(new head) - 3 - 2 - 1(tail). Immediately after that, we substract each part of the snake => 3(new head) - 2 - 1(new tail) - 0(old tail). 
   * Case 2 - The food is found: we first add 1 by each body part of the snake => 4(head) - 3 - 2(tail) and increment snakeLength. After that we repeat the steps from Case 1. The result 4(head) - 3 - 2 - 1(tail).
 
 
